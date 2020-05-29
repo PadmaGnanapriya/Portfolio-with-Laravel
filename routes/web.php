@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/**
+ * Display All Tasks
+ */
 Route::get('/', function () {
     return view('welcome');
 });
