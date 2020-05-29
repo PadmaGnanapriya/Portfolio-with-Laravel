@@ -17,5 +17,25 @@ use Illuminate\Support\Facades\Route;
  * Display All Tasks
  */
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+Route::get('/home', function () {
+    return view('home');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/eduction', function () {
+    return view('eduction');
+});
+
+Route::get('/skills', function () {
+    return view('skills');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
 });
