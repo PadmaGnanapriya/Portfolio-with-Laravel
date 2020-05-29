@@ -13,5 +13,5 @@ Padma-Gnanapriya-Home
 @endsection
 
 @section('content')
-This is my homepage
+<img src="padma-gnanapriya."
 @endsection
