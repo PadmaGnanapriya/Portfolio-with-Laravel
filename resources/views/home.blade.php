@@ -13,9 +13,17 @@ Padma-Gnanapriya-Home
 @endsection
 
 @section('content')
+<style>
+.intro{
+    padding:30px;
+    font-size:60px;
+    line-height:70px;
+}
+</style>
+<div class="intro">
+Hello, I'm Padma Gnanapriya
+</div>
 
-
-<img src="{{ asset(.'/'.$article->image) }}" alt="" title="">
 
 
 @endsection
