@@ -13,5 +13,9 @@ Padma-Gnanapriya-Home
 @endsection
 
 @section('content')
-<img src="padma-gnanapriya."
+
+
+<img src="{{ asset(.'/'.$article->image) }}" alt="" title="">
+
+
 @endsection
