@@ -9,6 +9,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body{
+    text-aline:center;
+    font-size:16px;
+  }
+  </style>
 </head>
 <body>
 
@@ -18,11 +24,7 @@
       <a class="navbar-brand" href="home">Padma Gnanapriya</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="home">Home</a></li>
-      <li><a href="about">About</a></li>
-      <li><a href="eduction">Education</a></li>
-      <li><a href="skills">Skills</a></li>
-      <li><a href="contact">Contact</a></li>
+     @yield('navbars')
     </ul>
   </div>
 </nav>

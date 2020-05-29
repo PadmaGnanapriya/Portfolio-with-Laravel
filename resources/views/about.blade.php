@@ -4,6 +4,14 @@
 Padma-Gnanapriya-About
 @endsection
 
+@section('navbars')
+<li><a href="home">Home</a></li>
+<li class="active"><a href="about">About</a></li>
+<li><a href="eduction">Education</a></li>
+<li><a href="skills">Skills</a></li>
+<li><a href="contact">Contact</a></li>
+@endsection
+
 
 @section('content')
 <h1>Let me tell who I am</h1>
